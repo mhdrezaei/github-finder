@@ -27,7 +27,7 @@ const githubReeducer = (state , action) => {
                 case 'CLEAR_USERS' :
                     return{
                         users: [],
-                        loading : true
+                        loading : false
                     }
 
             default : 
